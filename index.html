@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/logo.svg" />
+  
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    
+    <title>Uber Eats</title>
+
+    <meta property="og:site_name" content="Uber Eats" />
+    <meta property="og:title" content="🥗 Delivery Foods | Uber Eats" />
+    <meta
+      property="og:description"
+      content="Delicious Food & Best Delivery! "
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+    
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            Uber
+            <span>Eats</span>
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Services</a>
+            </li>
+            <li class="nav_item">
+              <a href="#foods" class="nav_link">Foods</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">App</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Delicious Food</h1>
+            <h2 class="home_subtitle">Feeling Hungry Order The Food From Uber Eats
+                                       That Brings The Food Which will Taste like 
+                                       Your Home Food 😍</h2>
+            <a href="#foods" class="button">Order Now</a>
+          </div>
+
+          <img
+            src="assets/img/home.png"
+            alt="Healthy Food Plate"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">About Us</span>
+            <h2 class="section-title about_initial">
+              Experience the best of your region!
+            </h2>
+            <p class="about_description">
+              With just a few taps on the screen, and with the Uber standard of
+              quality, we connect you with the best meals in your
+              region! 😎
+            </p>
+            <a href="#app" class="button">Did you like it? See now!</a>
+          </div>
+
+          <img
+            src="assets/img/about.jpg"
+            alt="Natural ingredients"
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">We offer for you</span>
+        <h2 class="section-title">What we do best</h2>
+
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            <svg class="services_img" xmlns="http://www.w3.org/2000/svg">
+           
+            </svg>
+
+            <h3 class="services_title">Excellent food</h3>
+            <p class="services_description">
+              The best restaurants and markets in your region are partners
+              Uber Eats!
+            </p>
+          </div>
+
+          <div class="services_content">
+            <svg class="services_img" xmlns="http://www.w3.org/2000/svg">
+        
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="64" height="64" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <h3 class="services_title">Fast delivery</h3>
+            <p class="services_description">
+              The best restaurants and markets in your region are partners
+              Uber Eats!
+            </p>
+          </div>
+
+          <div class="services_content">
+            <svg class="services_img" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="64" height="64" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <h3 class="services_title">Very Diverse Menu</h3>
+            <p class="services_description">
+              The best restaurants and markets in your region are partners
+              Uber Eats!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== FOODS ==========-->
+      <section class="foods section bd-container" id="foods">
+        <span class="section-subtitle">The best</span>
+        <h2 class="section-title">Dishes of the Week</h2>
+
+        <div class="foods_container bd-grid">
+          <div class="foods_content">
+            <img src="assets/img/plate1.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Salad & Barbecue</h3>
+            <span class="foods_detail">Healthy meal</span>
+            <span class="foods_price">Rs225.00</span>
+
+            <a href="#" class="button foods_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+
+          <div class="foods_content">
+            <img src="assets/img/plate2.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Salad with Avocado</h3>
+            <span class="foods_detail">Healthy meal</span>
+            <span class="foods_price">Rs300.00</span>
+
+            <a href="#" class="button foods_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+
+          <div class="foods_content">
+            <img src="assets/img/plate3.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Salad with Onion</h3>
+            <span class="foods_detail">Healthy meal</span>
+            <span class="foods_price">Rs116.00</span>
+
+            <a href="#" class="button foods_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial"
+              >Let's talk?</span
+            >
+            <h2 class="section-title contact_initial">Contact us</h2>
+            <p class="contact_description">
+              Need some help using the app? View your orders
+              or more details and options about our services, contact us
+              now! We are online 24 hours a day, from Monday to Sunday! 😉
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="#" class="button">Get in touch</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            Uber
+            <span>Eats</span>
+          </b>
+
+          <span class="footer_description">The best service, for you. </span>
+
+          <div>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Information</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Events</a></li>
+            <li><a href="#" class="footer_link">Privacy Policy</a></li>
+            <li><a href="#" class="footer_link">Service Terms</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Address</h3>
+          <ul>
+            <li>Nawada Extension , New Delhi</li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navigation</h3>
+          <ul>
+            <li><a href="#app" class="footer_link">Download</a></li>
+            <li><a href="#contact" class="footer_link">Contact us</a></li>
+            <li><a href="#foods" class="footer_link">Dishes of the week</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; Made in 2022, by Rahul
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
